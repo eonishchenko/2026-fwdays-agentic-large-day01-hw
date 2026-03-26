@@ -59,3 +59,7 @@
 - UI-розширення здебільшого проходять через actions + contexts + `LayerUI`.
 - Колабораційні фічі потребують узгодження між `collab/*`, `data/firebase.ts` і станом редактора.
 - Для продуктивності варто дотримуватись існуючого поділу: delta-based history, selective sync і chunking у Vite.
+
+## Details
+For detailed architecture → see docs/technical/architecture.md
+For domain glossary → see docs/product/domain-glossary.md

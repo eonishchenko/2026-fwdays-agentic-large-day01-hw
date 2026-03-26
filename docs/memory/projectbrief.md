@@ -39,3 +39,7 @@
 - У дев-режимі застосунок стартує через `yarn start` (root проксить у `excalidraw-app`).
 - У прод-режимі збірка генерує `excalidraw-app/build` і може віддаватися через Nginx-контейнер.
 - SDK із `packages/excalidraw` збирається як окремий npm-пакет із типами.
+
+## Details
+For detailed architecture → see docs/technical/architecture.md
+For domain glossary → see docs/product/domain-glossary.md

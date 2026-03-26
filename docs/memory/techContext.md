@@ -54,3 +54,7 @@
 - Vite env читаються через `loadEnv(mode, "../")` у `excalidraw-app/vite.config.mts`.
 - Firebase конфіг читається з `VITE_APP_FIREBASE_CONFIG` (JSON parse у `excalidraw-app/data/firebase.ts`).
 - Порт dev-сервера: `VITE_APP_PORT` (fallback `3000`).
+
+## Details
+For detailed architecture → see docs/technical/architecture.md
+For domain glossary → see docs/product/domain-glossary.md
