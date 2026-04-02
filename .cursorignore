@@ -23,6 +23,10 @@ coverage/
 .git/
 .vscode/
 
+# OS-specific
+.DS_Store/
+Thumbs.db
+
 # Project-specific generated files
 packages/excalidraw/locales/percentages.json
 excalidraw-app/build/version.json
